@@ -1,0 +1,19 @@
+//
+//  WindowTest.pch
+//  WindowTest
+//
+//  Created by 彭玉龙(外包) on 16/6/3.
+//  Copyright © 2016年 彭玉龙(外包). All rights reserved.
+//
+
+#ifndef WindowTest_pch
+#define WindowTest_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <Masonry.h>
+#define kSCREENWIDTH [[UIScreen mainScreen] bounds].size.width
+#define kSCREENHEIGHT [[UIScreen mainScreen] bounds].size.height
+
+
+#endif /* WindowTest_pch */
