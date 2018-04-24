@@ -22,6 +22,8 @@
     mainWindow.rootViewController = viewController;
     mainWindow.backgroundColor = [UIColor grayColor];
     [mainWindow makeKeyAndVisible];
+    mainWindow.backgroundColor = [UIColor grayColor];
+    [mainWindow makeKeyAndVisible];
     self.window = mainWindow;
     // Override point for customization after application launch.
     
